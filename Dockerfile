@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 LABEL maintainer="Niklas Hauser <niklas.hauser@rwth-aachen.de>"
-LABEL Description="Image for building and debugging arm-embedded projects from git"
+LABEL Description="Image for building and debugging arm-embedded projects from git. Version gcc-arm-none-eabi-7-2018-q2-update"
 WORKDIR /work
 
 ADD . /work
