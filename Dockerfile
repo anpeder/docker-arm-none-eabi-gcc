@@ -16,6 +16,8 @@ RUN apt-get update && \
       wget && \
     apt-get clean
 RUN wget -qO- https://developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2 | tar -xj
+RUN wget -qO- http://mazsola.iit.uni-miskolc.hu/~drdani/docs_arm/ide/st-stm32cubeide_1.5.1_9029_20201210_1234_amd64.sh
+.st-stm32cubeide_1.5.1_9029_20201210_1234_amd64.sh
 
 ENV PATH "/work/gcc-arm-none-eabi-7-2018-q2-update/bin:$PATH"
 
